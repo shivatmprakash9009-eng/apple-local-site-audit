@@ -1,4 +1,3 @@
-# Raw archive is not committed; extracted files are tracked in this PRIVATE repo
-apple-frontend.zip
+*.zip
 node_modules/
 .DS_Store

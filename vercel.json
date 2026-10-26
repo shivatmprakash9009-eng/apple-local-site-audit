@@ -1,9 +1,0 @@
-{
-  "redirects": [
-    {
-      "source": "/",
-      "destination": "/www.apple.com/index.html",
-      "permanent": false
-    }
-  ]
-}
