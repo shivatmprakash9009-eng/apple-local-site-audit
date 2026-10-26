@@ -1,0 +1,49 @@
+{
+  "audit_type": "static-snapshot-inventory",
+  "created_date": "2026-10-26",
+  "source_archive": "apple-frontend.zip (user-provided)",
+  "archive_integrity": "passed",
+  "archive_entries_including_directories": 592,
+  "regular_files": 331,
+  "total_uncompressed_bytes": 31724749,
+  "top_level_hosts": [
+    "www.apple.com",
+    "is1-ssl.mzstatic.com"
+  ],
+  "file_extensions": {
+    ".jpg": 196,
+    ".png": 56,
+    ".svg": 32,
+    ".js": 13,
+    ".jpg?l=en-us": 12,
+    ".css": 8,
+    ".orig": 3,
+    ".woff": 3,
+    ".ttf": 3,
+    ".eot": 3,
+    ".html": 1,
+    ".txt": 1
+  },
+  "main_html": "www.apple.com/index.html",
+  "main_html_bytes": 328003,
+  "main_html_observed_counts": {
+    "links": 142,
+    "images": 104,
+    "script_tags": 18,
+    "link_tags": 147
+  },
+  "verified_observations": [
+    "The archive integrity test passed.",
+    "A local browser screenshot shows the main page rendering with several images and sections.",
+    "At least one visible screenshot showed a modified heading, which confirms local HTML editing is possible.",
+    "The user-reported recording includes some navigation that appears to leave localhost; route coverage must be verified."
+  ],
+  "not_verified": [
+    "Full coverage of all Apple pages/routes",
+    "All script and image requests are local",
+    "Every interaction works offline",
+    "Runtime behavior on desktop browsers",
+    "Permissions to redistribute third-party assets"
+  ],
+  "recommendation": "Keep the raw third-party snapshot private/local. Publish audit metadata and original tooling only unless all redistributed content is cleared for publication."
+}
