@@ -1,6 +1,4 @@
-# Keep captured third-party website files and archives out of public Git
+# Raw archive is not committed; extracted files are tracked in this PRIVATE repo
 apple-frontend.zip
-www.apple.com/
-is1-ssl.mzstatic.com/
 node_modules/
 .DS_Store
