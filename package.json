@@ -1,0 +1,9 @@
+{
+  "name": "kite-studio-static-site",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Original responsive static portfolio website",
+  "scripts": {
+    "check": "node --check script.js"
+  }
+}
