@@ -1,0 +1,11 @@
+# Local environment
+.env
+.env.*
+!.env.example
+.vercel/
+node_modules/
+dist/
+build/
+.DS_Store
+Thumbs.db
+*.log
